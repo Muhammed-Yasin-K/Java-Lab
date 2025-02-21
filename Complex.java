@@ -20,10 +20,6 @@ public class Complex {
   int imag = imag1+imag2;
   System.out.println("Addition of Two complex Number = "+real+ "+" +imag+"i");
   
-  
-  
-  
-  
   } 
 
 
