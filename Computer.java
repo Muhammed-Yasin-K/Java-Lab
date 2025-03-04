@@ -5,7 +5,8 @@ class CPU {
         int num_cores=16;
         String manufacturer = "Ryzen";
         static class RAM {
-              String memory="64GB",manufacturer= "Lenovo";         
+              String memory = "64GB";
+              String manufacturer = "Lenovo";         
        }
     }
 }
