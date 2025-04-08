@@ -54,6 +54,7 @@ public class ShapeTest {
                 rectangle.length = scanner.nextDouble();  
                 System.out.print("Enter the width of the Rectangle: ");
                 rectangle.width = scanner.nextDouble(); 
+                System.out.println("Area: " + rectangle.area());
                 System.out.println("Perimeter: " + rectangle.perimeter());
             } else if (choice == 3) {
                 break;
@@ -65,4 +66,3 @@ public class ShapeTest {
         scanner.close();
     }
 }
-
